@@ -1,0 +1,75 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section-3{
+    
+    height: 550px;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 107px 1fr;
+}
+.left-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 151px;
+    
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    border-right: 0.5px solid black;
+    padding-top: 80px;
+    padding-right: 35px;
+    position: absolute;
+    right: 107px;
+}
+
+.right-area{
+    border-left: 0.5px solid black;
+    position: relative;
+}
+
+.right-area img{
+    width: 693px;
+    height: 399px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.list{
+    padding-left: 46px;
+    padding-top: 182px;
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between items if necessary */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(130, 118, 254, 1);
+    
+    margin-right: 10px; /* Adjust spacing between icon and text if necessary */
+}
+
+.checklist img{
+    width: 24px;
+    height: 24px;
+}
